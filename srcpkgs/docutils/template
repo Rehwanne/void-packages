@@ -1,0 +1,13 @@
+# Template file for 'docutils'
+
+pkgname="docutils"
+version="0.12"
+revision=1
+build_style=python-module
+short_desc="It is an processing system for processing plaintext documentation into useful formats like man-pages"
+maintainer="Reh Wanne <rehwanne@milliways.info>"
+license="GPL-3"
+homepage="http://docutils.sourceforge.net/"
+distfiles="${SOURCEFORGE_SITE}/${pkgname}/${pkgname}-${version}.tar.gz"
+checksum="c7db717810ab6965f66c8cf0398a98c9d8df982da39b4cd7f162911eb89596fa"
+makedepends="python"
